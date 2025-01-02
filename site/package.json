@@ -7,7 +7,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "clean": "rm -rf dist",
+    "clean-build": "npm run clean && npm run build",
+    "preview": "vite preview",
+    "full": "npm run clean-build && npm run preview",
+    "start": "npm run dev",
+    "serve": "vite preview --host",
+    "analyze": "vite build --mode analyze"
   },
   "devDependencies": {
     "vite": "^6.0.5"

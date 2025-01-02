@@ -1,6 +1,13 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  base: "/vite-deploy-demo/"
-})
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/vite-deploy-demo/' : '/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        about: 'about.html',
+      },
+    },
+  },
+}));

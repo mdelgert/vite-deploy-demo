@@ -35,6 +35,13 @@ cd workflows
 touch deploy-github-pages.yml
 ```
 
+Running the site
+```bash
+npm run dev
+npm run build
+npm run preview
+```
+
 # Links
 [Vite](https://vite.dev/)
 [JavaScript MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -52,3 +59,5 @@ touch deploy-github-pages.yml
 [Multipage Vite Vanilla JavaScript](https://dev.to/mochamadboval/multipage-vite-vanilla-javascript-3i0l)
 
 [vite-multipage](https://github.com/chriscalo/vite-multipage)
+
+[Multi-Page App](https://vite.dev/guide/build.html#multi-page-app)
