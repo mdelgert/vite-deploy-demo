@@ -18,7 +18,9 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
-    <a href="about.html">About</a>
+    <a href="./about.html">About1</a>
+    <a href="about.html">About2</a>
+    <a href="/vite-deploy-demo/about.html">About3</a>
   </div>
 `
 

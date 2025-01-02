@@ -37,9 +37,9 @@ touch deploy-github-pages.yml
 
 Running the site
 ```bash
-npm run dev
-npm run build
+npm run start # Local dev same as npm run dev
 npm run preview
+npm run full # Full preview deletes all files and runs the site
 ```
 
 # Links
