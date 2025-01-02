@@ -6,7 +6,7 @@ import"./style-z09VfpJW.js";const i="data:image/svg+xml,%3csvg%20xmlns='http://w
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${i}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite 1.1</h1>
+    <h1>Hello Vite 1.2</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
