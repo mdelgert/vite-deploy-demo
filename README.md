@@ -48,3 +48,7 @@ touch deploy-github-pages.yml
 [Deploying a Vite app on GitHub Pages using GitHub Actions with GitHub Secrets](https://dev.to/dwtoledo/deploying-a-vite-app-on-github-pages-using-github-actions-with-github-secrets-1hn0)
 
 [Deploying a Static Site](https://vite.dev/guide/static-deploy)
+
+[Multipage Vite Vanilla JavaScript](https://dev.to/mochamadboval/multipage-vite-vanilla-javascript-3i0l)
+
+[vite-multipage](https://github.com/chriscalo/vite-multipage)
