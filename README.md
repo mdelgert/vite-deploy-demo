@@ -17,8 +17,9 @@ Use vanilla javascript in this demo
 ```bash
 npm create vite@latest site
 cd site
-touch vite.config.ts
 npm install
+npm install gh-pages --save-dev
+touch vite.config.ts
 npm run dev
 ```
 
