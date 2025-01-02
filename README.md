@@ -40,3 +40,7 @@ touch deploy-github-pages.yml
 [Deploy Vite app to GitHub Pages using GitHub Actions](https://github.com/sitek94/vite-deploy-demo)
 
 [bahmutov/npm-install@v1](https://github.com/bahmutov/npm-install)
+
+[Deploying a Vite app on GitHub Pages using GitHub Actions with GitHub Secrets](https://dev.to/dwtoledo/deploying-a-vite-app-on-github-pages-using-github-actions-with-github-secrets-1hn0)
+
+[Deploying a Static Site](https://vite.dev/guide/static-deploy)
