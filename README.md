@@ -1,5 +1,7 @@
 # vite-deploy-demo
 
+[demo](https://mdelgert.github.io/vite-deploy-demo/)
+
 [Setup nodejs](https://nodejs.org/en/download)
 ```bash
 # Download and install nvm:
