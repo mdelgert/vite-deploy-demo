@@ -13,12 +13,30 @@ nvm current # Should print "v22.12.0".
 npm -v # Should print "10.9.0".
 ```
 
+Use vanilla javascript in this demo
+```bash
+npm create vite@latest site
+cd site
+npm install
+npm run dev
+```
+
+Setup github action
+```bash
+cd ..
+mkdir .github
+cd .github
+mkdir workflows
+cd workflows
+touch deploy-github-pages.yml
+```
+
+# Links
+[Vite](https://vite.dev/)
+[JavaScript MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 [Deploying Vite Deploying Vite App to GitHub Pages](https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3)
 
 [Deploy Vite app to GitHub Pages using GitHub Actions](https://github.com/sitek94/vite-deploy-demo)
 
-Usevanilla javascript in this demo
-```bash
-npm create vite@latest site
-cd site
-```
+[bahmutov/npm-install@v1](https://github.com/bahmutov/npm-install)
