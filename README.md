@@ -20,7 +20,6 @@ Use vanilla javascript in this demo
 npm create vite@latest site
 cd site
 npm install
-npm install gh-pages --save-dev
 touch vite.config.ts
 npm run dev
 ```
